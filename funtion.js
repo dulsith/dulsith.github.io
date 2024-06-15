@@ -1,4 +1,4 @@
-var btn = document.querySelectorAll('.item');
+var btn = document.querySelectorAll('.photo');
 btn.forEach(applyToList)
 function applyToList(item ,index,arr){
      item.addEventListener('click',()=>{
