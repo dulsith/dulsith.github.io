@@ -2,27 +2,54 @@
 <html>
   <head>
     
+   
+    
     <meta name="google-site-verification" content="AbgQNWPdd0f6DUAQrlAnTISYKpFabW6KplpkfXYrBlk" />
     <!--Icons and title-->
     <link rel="icon" type="image/x-icon" href="Images/Pf_logo.png">
+    <!-- title of the website -->
     <title>Dulsith/portfolio</title>
-    
-
-    
-
     <!--Meta data search results-->
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="dulsith" content="Dulsith's portfolio website">
   <meta name="Dulsith akalanka" content="My works and projects">
   <meta name="dulsith" content="portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   </head>
-  <body>
-    <link rel="stylesheet" href="Style.css" />
+  <body> 
+    <nav id="desktop-nav">
+      <div class="logo">Dulsith akalanka</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </nav>  
+    <nav id="mobile-nav">
+      <div class="logo">Dulsith akalanka</div>
+      <div class="mobile-icon"onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about"onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience"onclick="toggleMenu()">experience</a></li>
+          <li><a href="#projects"onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact"onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </nav>
     
-    <h1>My portfolio</h1>
-    
+
+
+     <!-- JAVASCRIPTS FLES DONT DELETE  -->
+     <link rel="stylesheet" href="Style.css" />
+     <link rel="stylesheet" href="mediaqueris.css">
     <script src="funtion.js"></script>
   </body>
 </html>
