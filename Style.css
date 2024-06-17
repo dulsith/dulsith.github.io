@@ -56,6 +56,7 @@ a:hover{
     cursor: pointer;
 }
 .mobile-icon span{
+    
     transition: all 0.3 ease-in-out;
     width: 30px;
     height: 2px;
