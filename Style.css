@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(91, 91, 91);
+}
+
+
+
+.photo {
+    
+    cursor: pointer;
+    background-color: rgb(215, 203, 203);
+    outline: thick solid #2d2f2f;
+    outline: 8px ridge rgba;
+    background-image: url("Images/BearNotfancy.png");
+    
+    background-size: 130px;
+    height: 20px;
+    background-position:right 15px bottom -2px ;
+}
+
+.photo.clicked {
+    transition: 1s;
+    background-image: url("Images/Bearfancy.png");
+    size: 10px;
+    background-size: 130px;
+    border-radius: 100%;
+    background-position:right 15px bottom -2px ;
+    
+}
+
+.item:hover {
+    transition:0.5s;
+    background-color: rgb(103, 255, 103);
+}
