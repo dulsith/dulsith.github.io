@@ -28,24 +28,27 @@ a,
 
 /* DESKTOP NAV */
 
-nav,
-.nav-links {
+nav,.nav-links {
   display: flex;
 }
 
 nav {
+  position: relative;
+  position: relative;
   justify-content: space-around;
   align-items: center;
   height: 17vh;
 }
 
 .nav-links {
+  position: relative;
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
 }
 
 a {
+  position: relative;
   color: black;
   text-decoration: none;
   text-decoration-color: white;
@@ -59,7 +62,8 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  position: relative;
+  font-size: 3rem;
 }
 
 .logo:hover {
@@ -200,6 +204,7 @@ section {
 }
 
 #socials-container {
+  position: relative;
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -209,6 +214,7 @@ section {
 /* ICONS */
 
 .icon {
+  position: relative;
   cursor: pointer;
   height: 2rem;
 }
@@ -216,12 +222,14 @@ section {
 /* BUTTONS */
 
 .btn-container {
+  position: relative;
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
 .btn {
+  position: relative;
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
@@ -231,25 +239,30 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
+  position: relative;
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .btn-color-1:hover,
 .btn-color-2:hover {
+  position: relative;
   cursor: pointer;
 }
 
 .btn-color-1,
 .btn-color-2:hover {
+  position: relative;
   background: rgb(53, 53, 53);
   color: white;
 }
 
 .btn-color-1:hover {
+  position: relative;
   background: rgb(0, 0, 0);
 }
 
 .btn-color-2 {
+  position: relative;
   background: none;
 }
 
@@ -258,6 +271,7 @@ section {
 }
 
 .btn-container {
+  position: relative;
   gap: 1rem;
 }
 
@@ -284,10 +298,12 @@ section {
 }
 
 .about-pic {
+  position: relative;
   border-radius: 2rem;
 }
 
 .arrow {
+  position: relative;
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
@@ -343,6 +359,7 @@ section {
 }
 
 article {
+  position: relative;
   display: flex;
   width: 10rem;
   justify-content: space-around;
@@ -350,6 +367,7 @@ article {
 }
 
 article .icon {
+  position: relative;
   cursor: default;
 }
 
@@ -365,17 +383,20 @@ article .icon {
 }
 
 .project-img {
+  position: relative;
   border-radius: 2rem;
   width: 90%;
   height: 90%;
 }
 
 .project-title {
+  position: relative;
   margin: 1rem;
   color: black;
 }
 
 .project-btn {
+  position: relative;
   color: black;
   border-color: rgb(163, 163, 163);
 }
@@ -383,6 +404,8 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  position: relative;
+  
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -390,6 +413,7 @@ article .icon {
 }
 
 .contact-info-upper-container {
+  position: relative;
   display: flex;
   justify-content: center;
   border-radius: 2rem;
@@ -401,6 +425,7 @@ article .icon {
 }
 
 .contact-info-container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -409,14 +434,17 @@ article .icon {
 }
 
 .contact-info-container p {
+  position: relative;
   font-size: larger;
 }
 
 .contact-icon {
+  position: relative;
   cursor: default;
 }
 
 .email-icon {
+  position: relative;
   height: 2.5rem;
 }
 
